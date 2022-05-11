@@ -10,3 +10,15 @@ C:\Users\Adem\source\repos\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.c
 C:\Users\Adem\source\repos\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.CopyComplete
 C:\Users\Adem\source\repos\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.exe
 C:\Users\Adem\source\repos\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.pdb
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\Build\x86\Debug\UI.exe.config
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\Build\x86\Debug\UI.exe
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\Build\x86\Debug\UI.pdb
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.Form1.resources
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.Properties.Resources.resources
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.csproj.CopyComplete
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.exe
+C:\Users\Adem\Documents\GitHub\FirebirdEmbeddedEntityFramework\UI\obj\x86\Debug\UI.pdb

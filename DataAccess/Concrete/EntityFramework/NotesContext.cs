@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         public NotesContext() : base(new FbConnection(NotesDatabase.connectionString), true)
         {
-
+            Database.SetInitializer(new NotesDatabaseInitializer());
         }
         public DbSet<Note> Notes { get; set; }
 

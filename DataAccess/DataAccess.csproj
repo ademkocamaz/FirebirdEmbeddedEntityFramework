@@ -87,6 +87,7 @@
     <Compile Include="Concrete\EntityFramework\EfNoteDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\NoteMap.cs" />
     <Compile Include="Concrete\EntityFramework\NotesContext.cs" />
+    <Compile Include="Concrete\EntityFramework\NotesDatabaseInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
