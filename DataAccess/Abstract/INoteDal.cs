@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface INoteDal:IEntityRepository<Note>
+    public interface INoteDal:IEntityDal<Note>
     {
     }
 }
