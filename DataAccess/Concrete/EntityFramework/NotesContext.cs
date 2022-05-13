@@ -22,12 +22,12 @@ namespace DataAccess.Concrete.EntityFramework
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Properties().Configure(x => x.HasColumnName(x.ClrPropertyInfo.Name.ToUpper()));
+            //modelBuilder.Properties().Configure(x => x.HasColumnName(x.ClrPropertyInfo.Name.ToUpper()));
 
             //var notesConf = modelBuilder.Entity<Note>();
             //notesConf.ToTable("NOTES");
 
-            modelBuilder.Configurations.Add(new NoteMap());
+            //modelBuilder.Configurations.Add(new NoteMap());
         }
     }
 }

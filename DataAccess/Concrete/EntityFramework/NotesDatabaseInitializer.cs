@@ -14,13 +14,13 @@ namespace DataAccess.Concrete.EntityFramework
         {
             List<Note> notes = new List<Note>()
             {
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Date=DateTime.Now}
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now}
             };
             foreach (var note in notes)
             {
