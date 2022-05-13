@@ -84,11 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IEntityDal.cs" />
     <Compile Include="Abstract\INoteDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfCategoryDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfNoteDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\NoteMap.cs" />
-    <Compile Include="Concrete\EntityFramework\NotesContext.cs" />
+    <Compile Include="Concrete\EntityFramework\NotesDatabaseContext.cs" />
     <Compile Include="Concrete\EntityFramework\NotesDatabaseInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
