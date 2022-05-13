@@ -36,7 +36,7 @@ namespace UI
             //var entity = noteService.Get(x => x.Id.Equals(4));
             //MessageBox.Show(entity.Category.Name);
 
-            using (var context = new NotesContext())
+            using (var context = new NotesDatabaseContext())
             {
                 var note = context.Notes.Where(x => x.Id == 4).FirstOrDefault();
                 MessageBox.Show(context.Categories.Where(x=>x.Id==note.CategoryId).FirstOrDefault().Name);

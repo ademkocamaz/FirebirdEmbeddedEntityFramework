@@ -22,7 +22,7 @@ namespace Business.DependencyResolvers.Ninject
             Bind<ICategoryService>().To<CategoryManager>().InSingletonScope();
             Bind<ICategoryDal>().To<EfCategoryDal>().InSingletonScope();
 
-            Bind<DbContext>().To<NotesContext>().InSingletonScope();
+            Bind<DbContext>().To<NotesDatabaseContext>().InSingletonScope();
         }
     }
 }

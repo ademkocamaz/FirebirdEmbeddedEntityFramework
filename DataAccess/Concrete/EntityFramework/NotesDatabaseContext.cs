@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class NotesContext : DbContext
+    public class NotesDatabaseContext : DbContext
     {
-        public NotesContext() : base(new FbConnection(NotesDatabase.connectionString), true)
+        public NotesDatabaseContext() : base(new FbConnection(NotesDatabase.connectionString), true)
         {
             Database.SetInitializer(new NotesDatabaseInitializer());
         }

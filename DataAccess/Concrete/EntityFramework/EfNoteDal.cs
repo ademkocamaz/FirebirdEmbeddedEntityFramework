@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfNoteDal:EfEntityRepositoryBase<Note,NotesContext>,INoteDal
+    public class EfNoteDal:EfEntityRepositoryBase<Note,NotesDatabaseContext>,INoteDal
     {
     }
 }

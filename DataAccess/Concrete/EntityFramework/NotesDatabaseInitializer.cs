@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class NotesDatabaseInitializer:DropCreateDatabaseIfModelChanges<NotesContext>
+    public class NotesDatabaseInitializer:DropCreateDatabaseIfModelChanges<NotesDatabaseContext>
     {
-        protected override void Seed(NotesContext context)
+        protected override void Seed(NotesDatabaseContext context)
         {
             Category category = new Category()
             {
