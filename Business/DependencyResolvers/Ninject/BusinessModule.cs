@@ -19,6 +19,9 @@ namespace Business.DependencyResolvers.Ninject
             Bind<INoteService>().To<NoteManager>().InSingletonScope();
             Bind<INoteDal>().To<EfNoteDal>().InSingletonScope();
 
+            Bind<ICategoryService>().To<CategoryManager>().InSingletonScope();
+            Bind<ICategoryDal>().To<EfCategoryDal>().InSingletonScope();
+
             Bind<DbContext>().To<NotesContext>().InSingletonScope();
         }
     }

@@ -12,15 +12,22 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void Seed(NotesContext context)
         {
+            Category category = new Category()
+            {
+                Name = "Test Category"
+            };
+            context.Categories.Add(category);
+            context.SaveChanges();
+
             List<Note> notes = new List<Note>()
             {
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now},
-                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now}
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1},
+                new Note(){Title="Test Title",Detail="Test Detail",Description="Test Description",Date=DateTime.Now,CategoryId=1}
             };
             foreach (var note in notes)
             {

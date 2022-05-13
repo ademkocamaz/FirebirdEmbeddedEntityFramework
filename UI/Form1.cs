@@ -15,15 +15,19 @@ namespace UI
     public partial class Form1 : Form
     {
         private INoteService noteService;
+        private ICategoryService categoryService;
+
         public Form1()
         {
             InitializeComponent();
             noteService = InstanceFactory.GetInstance<INoteService>();
+            categoryService = InstanceFactory.GetInstance<ICategoryService>();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = noteService.GetList();
+            dataGridView2.DataSource = categoryService.GetList();
         }
     }
 }
