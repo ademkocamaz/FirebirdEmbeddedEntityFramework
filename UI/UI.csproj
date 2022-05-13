@@ -134,6 +134,10 @@
       <Project>{1A53624F-DA86-4E90-8ED2-EC2EE4FD189B}</Project>
       <Name>Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{4FDAAFAE-EBBB-41D7-8B59-9C0474881CA3}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{DBD346AB-6C4D-401E-99FC-C9ABF9C280FD}</Project>
       <Name>Entities</Name>
