@@ -17,6 +17,8 @@ namespace DataAccess.Concrete.EntityFramework
             Database.SetInitializer(new NotesDatabaseInitializer());
         }
         public DbSet<Note> Notes { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

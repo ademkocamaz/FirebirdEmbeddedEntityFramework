@@ -83,7 +83,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\INoteDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfCategoryDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfNoteDal.cs" />
     <Compile Include="Concrete\EntityFramework\Mappings\NoteMap.cs" />
     <Compile Include="Concrete\EntityFramework\NotesContext.cs" />
